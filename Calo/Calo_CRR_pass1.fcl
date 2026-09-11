@@ -22,6 +22,9 @@ services : {
     version : v0_0
     dbName : "mu2e_conditions_dev"
     verbose : 1
+    nearestMatch : true
+    textFile : [ "Offline/CaloConditions/data/EnergyCalib_example.txt",
+                 "Offline/CaloConditions/data/TimeCalib_example.txt" ]
   }
 
 }
