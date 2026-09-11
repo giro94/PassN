@@ -17,10 +17,6 @@ services : {
 
 physics : {
 
-  producers : {
-    @table::EventNtuple.producers
-  }
-
   analyzers : {
     @table::EventNtuple.analyzers
   }
@@ -32,6 +28,8 @@ physics : {
   end_paths : [ EndPath ]
 
 }
+
+services.TFileService.fileName : "caloNtuple.root"
 
 #EventNtuple with calo branches (no MC)
 physics.analyzers.EventNtuple.calo.fill : true
