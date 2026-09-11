@@ -53,6 +53,4 @@ physics.producers.CaloRecoDigiMaker.UseProtonBunchTime : false
 
 #No calibration
 services.ProditionsService.calCalib.useDb : false
-services.ProditionsService.calCalib.ADC2MeVCsI : 1 #No conversion
-services.ProditionsService.calCalib.ADC2MeVlyso : 1 #No conversion
 
