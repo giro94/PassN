@@ -5,7 +5,7 @@
 #include "Offline/CaloReco/fcl/prolog.fcl"
 #include "Offline/CaloCluster/fcl/prolog.fcl"
 
-process_name : CaloPass1
+process_name : CaloPass1uncalibrated
 
 source : {
    module_type : RootInput
@@ -39,7 +39,7 @@ outputs:
   outfile :
   {
     module_type   :   RootOutput
-    fileName      :   "caloReco.art"
+    fileName      :   "caloRecoUncalibrated.art"
     outputCommands : [ "keep *_*_*_*" ,
                        "drop artdaq::*_*_*_*" ]
   }
