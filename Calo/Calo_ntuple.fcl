@@ -53,3 +53,4 @@ physics.analyzers.EventNtuple.subruns.genEventCount.include : false
 physics.analyzers.EventNtuple.subruns.cosmicLivetime.include : false
 physics.analyzers.EventNtuple.PBTTag : ""
 physics.analyzers.EventNtuple.FillTriggerInfo : false
+physics.analyzers.EventNtuple.RecoCountTag : ""
