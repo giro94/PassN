@@ -1,3 +1,6 @@
+#Create EventNtuples with all calorimeter branches
+#contact: P. Girotti
+
 #include "Offline/fcl/minimalMessageService.fcl"
 #include "Offline/fcl/standardProducers.fcl"
 #include "Offline/fcl/standardServices.fcl"

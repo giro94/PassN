@@ -1,3 +1,6 @@
+#pass1 for data from Calo, calibrated (database or text files)
+#contact: P. Girotti
+
 #include "Offline/fcl/minimalMessageService.fcl"
 #include "Offline/fcl/standardProducers.fcl"
 #include "Offline/fcl/standardServices.fcl"
