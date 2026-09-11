@@ -4,7 +4,6 @@
 #include "Offline/DAQ/fcl/prolog.fcl"
 #include "Offline/CaloReco/fcl/prolog.fcl"
 #include "Offline/CaloCluster/fcl/prolog.fcl"
-#include "EventNtuple/fcl/prolog.fcl"
 
 process_name : CaloPass1
 
@@ -59,3 +58,6 @@ physics.producers.CaloRecoDigiMaker.caloDigiCollection : CaloDigis
 
 #No beam
 physics.producers.CaloRecoDigiMaker.UseProtonBunchTime : false
+
+#Use database
+services.ProditionsService.calCalib.useDb : true
