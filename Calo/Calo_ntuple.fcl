@@ -21,10 +21,9 @@ physics : {
     @table::EventNtuple.analyzers
   }
 
-  RecoPath : [ ]
   EndPath : [ EventNtuple ]
 
-  trigger_paths : [ RecoPath ]
+  trigger_paths : [ ]
   end_paths : [ EndPath ]
 
 }
