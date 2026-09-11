@@ -1,9 +1,6 @@
 #include "Offline/fcl/minimalMessageService.fcl"
 #include "Offline/fcl/standardProducers.fcl"
 #include "Offline/fcl/standardServices.fcl"
-#include "Offline/DAQ/fcl/prolog.fcl"
-#include "Offline/CaloReco/fcl/prolog.fcl"
-#include "Offline/CaloCluster/fcl/prolog.fcl"
 
 process_name : CaloPass1uncalibrated
 
